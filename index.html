@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Le texte que je vais voir apparaître sur Google" />
+    <title>LiveCoding HTML</title>
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Accueil</a>
+        </li>
+        <li>
+          <a href="#tags-semantiques">Tags sémantiques</a>
+        </li>
+        <li>
+          <a href="#imbrication">Imbrication</a>
+        </li>
+        <li>
+          <a href="#formulaires">Formulaires</a>
+        </li>
+        <li>
+          <a href="a-propos.html">À propos</a>
+        </li>
+        <li>
+          <a href="notre-equipe/">Notre équipe</a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <h1>HTML</h1>
+    </header>
+
+    <main>
+
+      <section id="tags-semantiques">
+        <h2 class="section-title">
+          <span class="text-red">Tags</span> <span class="text-blue">sémantiques</span></h2>
+        <p>
+          Le <em>Lorem Ipsum</em> est simplement du <span>faux texte</span> employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+        </p>
+
+      </section>
+
+
+      <section id="imbrication">
+        <h2>Imbrication</h2>
+
+        <p>Mauvais exemples</p>
+
+        <span>
+          <p>Hello World !</p>
+        </span>
+
+        <div>
+          <li>Pas bien !</li>
+        </div>
+
+        <p>
+          <div>Pas bien non plus !</div>
+        </p>
+
+        <p>
+          Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+        </p>
+
+        <p>
+          Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+        </p>
+
+        <p>
+          Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+        </p>
+
+      </section>
+
+
+      <section id="formulaires">
+        <h2>Formulaires</h2>
+        <p>
+          Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+        </p>
+
+        <form>
+
+          <div>
+            <label for="prenom">Prénom</label>
+            <input id="prenom" type="text" placeholder="Jane" />
+          </div>
+
+          <div>
+            <label for="prenom">Prénom</label>
+            <input id="prenom" type="text" />
+          </div>
+
+          <div>
+            <label for="email">E-mail</label>
+            <input id="email" type="email" />
+          </div>
+
+          <div>
+            <label for="password">Mot de passe</label>
+            <input id="password" type="password" />
+          </div>
+
+          <span>où est le</span><input type="hidden" /> <span>hidden ?</span>
+
+
+
+          <input id="pizza" type="checkbox" /> <label for="pizza">Pizza</label>
+          <input id="biere" type="checkbox" /> <label for="biere">Bière</label>
+          <input id="coca" type="checkbox" /> <label for="coca">Coca</label>
+          <input id="frites" type="checkbox" /> <label for="frites">Frites</label>
+
+
+          <input name="nom-viennoiserie" type="radio" /> Chocolatine
+          <input name="nom-viennoiserie" type="radio" /> Pain au chocolat
+          <input name="equipe-foot" type="radio" /> PSG
+          <input name="equipe-foot" type="radio" /> OM
+          <input name="equipe-foot" type="radio" /> Rennes
+
+          <textarea></textarea>
+
+          <select>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+          </select>
+
+
+          <select multiple>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+          </select>
+
+          <button type="submit">Envoyer</button>
+
+
+        </form>
+
+      </section>
+
+
+    </main>
+
+
+    <footer></footer>
+
+    <!-- Plutot ici -->
+    <script></script>
+  </body>
+
+</html>
