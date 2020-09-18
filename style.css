@@ -13,3 +13,12 @@ h2 {
 header > p {
   font-style: italic;
 }
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.bg-light-grey {
+  background: #ddd;
+}
