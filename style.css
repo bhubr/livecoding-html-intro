@@ -1,5 +1,10 @@
+/* Header */
 header .text-red {
   color: red;
+}
+
+header > p {
+  font-style: italic;
 }
 
 .text-blue {
@@ -10,15 +15,40 @@ h2 {
   color: #777;
 }
 
-header > p {
-  font-style: italic;
-}
-
 .container {
   max-width: 700px;
   margin: 0 auto;
 }
 
+.page-section {
+  padding: 6rem 0;
+}
+
 .bg-light-grey {
   background: #ddd;
+}
+
+nav {
+  background: #444;
+  color: #ddd;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #ccc;
+  padding: 1em;
+}
+
+nav ul li a:hover {
+  background: #111;
+  color: #fff;
 }
