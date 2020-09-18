@@ -1,4 +1,4 @@
-.text-red {
+header .text-red {
   color: red;
 }
 
@@ -10,3 +10,6 @@ h2 {
   color: #777;
 }
 
+header > p {
+  font-style: italic;
+}
